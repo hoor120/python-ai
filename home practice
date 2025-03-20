@@ -1,0 +1,68 @@
+# if  elif  else statement
+
+
+# a= int(input('enter ur age'))
+# b= int(input('enter ur experience'))
+
+# if a== 20 and b ==2 :
+#     print ('create ur id')
+# elif a >= 50  and  b >=5  :
+#     print('create ur id with premium gifts')
+# elif a <10 and b <1 :
+#     print('only enter data')
+# else:
+#     print('stay connected') 
+    
+    
+#    percentage practice
+
+# t = int(input('enter your bonus'))
+# d = int(input('enter your percentage'))
+# e = int(input('enter your leave days'))
+# p = d/100
+# new_bonus = t*p-e
+# print(new_bonus)
+
+# length practice
+
+# f = ['amna', 'hoor', 'eman']
+# print (len(f))
+
+# uper and lower case practice
+
+# a = 'FATIMA'
+# b = 'ARSHAD'
+# print(a[0:6].lower() + ' '+ b[0:6].lower())
+
+# s= 'sanaarshad'
+# print(s[0:10].upper())
+
+# string silicing
+
+# a = 'good work'
+# print(a[1:2])
+
+# v= 'nvttc PYTHON'
+# print(v[-4:-2])
+
+# q = 'further clarification!'
+# print(q[5:9])
+
+# split string
+
+# w = 'wlcome : home'
+# print(w.split(':'), w)
+
+# q = 'string in python'
+# print(q.split(' '), q ,len(q), q[2:6])
+
+# for loops
+
+ls = ['pakistan' , 'dubai', 'england']
+lp = []
+for a in ls:
+    b = a[:-1].lower() + a[-1].upper()
+    lp.append(b)
+    lp.insert(0,a)
+    print(b)
+print(lp)

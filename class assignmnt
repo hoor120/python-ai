@@ -1,0 +1,39 @@
+#  class assignment  no 1
+
+# edu=int(input("enter your education"))
+# age=int(input("enter your age"))
+# hight=int(input("enter your hight"))
+ 
+# if(edu >= 12 and(age <= 32 and age >= 18)):
+#     print ("passed")
+# elif((age <= 32 and age >= 18 )and hight >= 5.6):
+#     print("passed")
+# elif(hight >= 5.6 and edu >= 12):
+#     print("passed")
+# else:
+#     print("not passed")
+
+# class assigmnt 2
+
+# marks =int(input( "enter ur marks"))
+# total_num = int(input("enter ut total num"))
+# percentage = marks / total_num*100
+# print(percentage)
+
+# class assigment 3
+
+# marks =int(input("marks"))
+# total_num = int(input("total_num"))
+# percentage = marks / total_num*100 
+# print(percentage)
+
+
+#  4:-  class assignment                     reverse methode
+
+
+ 
+# ls = [ "lahore","Faisalabad","jaranwala"]
+# lp = []
+# for x in ls:
+#     lp.insert(0,x)
+# print(lp)

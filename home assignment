@@ -1,0 +1,49 @@
+# 1:- home assignmt  (percentage method)
+
+
+# bonus = 15000
+# percentage = 22%
+# after 6 mnths incresed
+
+# percentage convert into decimal
+# 22/100 = 0.22
+
+# b= int(input("enter ur bonus"))
+# p = int(input('enter ur percentage'))
+# new_bonus = b + b * p                 (formula 1)
+# per=p/100                             (other formula)   
+# new_bonus = per*b                         (o f)
+# print(new_bonus)
+
+
+#  2:- home assignmt  (replace method)
+
+# a = 'Jaranwala Faislabad Lahore Karachi Multan'
+
+
+# b = a.replace('J','j').replace('F','f').replace('L','l'). replace('K', 'k').replace('M','m')
+
+# print(b)
+
+
+    
+ls= ['lahore', 'multan' , 'karachi' , 'sindh' , 'quetta' , 'islamabad' , 'sharaqpur' , 'jaranwala' , 'gujranwala', 'jhelum']
+lp = []
+for a in ls:
+    p = a[0].upper() + a[1:-1].lower() + a[-1].upper()
+    lp.append(p)
+    lp.insert(0,a)
+   
+    print(p)
+print(lp)
+
+
+# ls = ['noor' ,'hoor' , 'nehmal']
+# lp = []
+# for a in ls:
+#     b = a[0].lower()  + a[1:-1].upper() + a[-1].lower()
+   
+#     lp.insert(0,a)
+#     lp.append (b)
+#     print(b)
+# print(lp)
