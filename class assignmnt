@@ -1,77 +1,77 @@
-#   class assignment  1
+  class assignment  1
 
-# edu=int(input("enter your education"))
-# age=int(input("enter your age"))
-# hight=int(input("enter your hight"))
+edu=int(input("enter your education"))
+age=int(input("enter your age"))
+hight=int(input("enter your hight"))
  
-# if(edu >= 12 and(age <= 32 and age >= 18)):
-#     print ("passed")
-# elif((age <= 32 and age >= 18 )and hight >= 5.6):
-#     print("passed")
-# elif(hight >= 5.6 and edu >= 12):
-#     print("passed")
-# else:
-#     print("not passed")
+if(edu >= 12 and(age <= 32 and age >= 18)):
+    print ("passed")
+elif((age <= 32 and age >= 18 )and hight >= 5.6):
+    print("passed")
+elif(hight >= 5.6 and edu >= 12):
+    print("passed")
+else:
+    print("not passed")
 
-# class assigmnt   2
+class assigmnt   2
 
-# marks =int(input( "enter ur marks"))
-# total_num = int(input("enter ut total num"))
-# percentage = marks / total_num*100
-# print(percentage)
+marks =int(input( "enter ur marks"))
+total_num = int(input("enter ut total num"))
+percentage = marks / total_num*100
+print(percentage)
 
-# class assigment  3
+class assigment  3
 
-# marks =int(input("marks"))
-# total_num = int(input("total_num"))
-# percentage = marks / total_num*100 
-# print(percentage)
+marks =int(input("marks"))
+total_num = int(input("total_num"))
+percentage = marks / total_num*100 
+print(percentage)
 
 
-# class assignment   4                  reverse methode
+class assignment   4                  reverse methode
 
 
  
-# ls = [ "lahore","Faisalabad","jaranwala"]
-# lp = []
-# for x in ls:
-#     lp.insert(0,x)
-# print(lp)
+ls = [ "lahore","Faisalabad","jaranwala"]
+lp = []
+for x in ls:
+    lp.insert(0,x)
+print(lp)
 
 
-# class assignment    5    
+class assignment    5    
 
 
-#     write table of 2
+    write table of 2
 
-# num = 2
+num = 2
 
-# a = int(input('enter ur num'))
-# for i in range(1,11):
-#     print(num, '*' ,i ,'=' , num*i)
+a = int(input('enter ur num'))
+for i in range(1,11):
+    print(num, '*' ,i ,'=' , num*i)
 
 
-#  class assignment    6
+ class assignment    6
 
          
-#     seprate 3 in 100
+    seprate 3 in 100
 
 
-# # count = 0
-# for i in range(1,101):
-#     count += str(i).count("3")
-# print(count)
+# count = 0
+for i in range(1,101):
+    count += str(i).count("3")
+print(count)
 
     
-#  class assignment     7   
+ class assignment     7   
     
     
-#     # find fictorial
+    # find fictorial
     
-# a = int(input('enter ur value'))
-# fic = 1
-# for i in range(1 , a+1):
-#     fic = fic*i
-# print(fic)
+a = int(input('enter ur value'))
+fic = 1
+for i in range(1 , a+1):
+    fic = fic*i
+print(fic)
     
     
