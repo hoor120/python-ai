@@ -242,3 +242,29 @@
 #      ls[0:1].upper() + ls[1:2].upper() + ls[2:3].upper() + ls[3:4].upper + ls[4:].upper
 #      print(ls)
  
+# for loop 
+
+
+# ls=['karachi', 'multan','lahore']
+# for x in len(ls):
+#     print(ls[x])
+    
+    
+# while loop
+i =0
+while i<len(ls):
+    print(ls[i])
+i = i+1
+
+
+# range
+
+# for x in range(2,21,2):
+#     print(x)
+    
+    
+#  list comprensions   
+
+# ls = [x for x in range(2,10,2)]
+# print(ls)
+

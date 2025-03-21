@@ -1,4 +1,4 @@
-#  class assignment  no 1
+#   class assignment  1
 
 # edu=int(input("enter your education"))
 # age=int(input("enter your age"))
@@ -13,14 +13,14 @@
 # else:
 #     print("not passed")
 
-# class assigmnt 2
+# class assigmnt   2
 
 # marks =int(input( "enter ur marks"))
 # total_num = int(input("enter ut total num"))
 # percentage = marks / total_num*100
 # print(percentage)
 
-# class assigment 3
+# class assigment  3
 
 # marks =int(input("marks"))
 # total_num = int(input("total_num"))
@@ -28,7 +28,7 @@
 # print(percentage)
 
 
-#  4:-  class assignment                     reverse methode
+# class assignment   4                  reverse methode
 
 
  
@@ -37,3 +37,41 @@
 # for x in ls:
 #     lp.insert(0,x)
 # print(lp)
+
+
+# class assignment    5    
+
+
+#     write table of 2
+
+# num = 2
+
+# a = int(input('enter ur num'))
+# for i in range(1,11):
+#     print(num, '*' ,i ,'=' , num*i)
+
+
+#  class assignment    6
+
+         
+#     seprate 3 in 100
+
+
+# # count = 0
+# for i in range(1,101):
+#     count += str(i).count("3")
+# print(count)
+
+    
+#  class assignment     7   
+    
+    
+#     # find fictorial
+    
+# a = int(input('enter ur value'))
+# fic = 1
+# for i in range(1 , a+1):
+#     fic = fic*i
+# print(fic)
+    
+    

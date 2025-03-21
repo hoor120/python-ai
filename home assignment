@@ -43,4 +43,4 @@
 #     b = a[0:1].lower()  + a[1:-1].upper() + a[-1:].lower()
 #     lp.insert(0,b)
 #     print(b)
-# print(lp)
+# print(lp)ls
