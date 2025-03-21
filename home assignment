@@ -27,23 +27,20 @@
 
 
     
-ls= ['lahore', 'multan' , 'karachi' , 'sindh' , 'quetta' , 'islamabad' , 'sharaqpur' , 'jaranwala' , 'gujranwala', 'jhelum']
-lp = []
-for a in ls:
-    p = a[0].upper() + a[1:-1].lower() + a[-1].upper()
-    lp.append(p)
-    lp.insert(0,a)
-   
-    print(p)
-print(lp)
+# ls= ['lahore', 'multan' , 'karachi' , 'sindh' , 'quetta' , 'islamabad' , 'sharaqpur' , 'jaranwala' , 'gujranwala', 'jhelum']
+# lp = []
+# for a in ls:
+#     p = a[0:1].upper() + a[1:-1].lower() + a[-1:].upper()
+#     # lp.append(p)
+#     lp.insert(0,p)
+# #     print(p)
+# print(lp)
 
 
 # ls = ['noor' ,'hoor' , 'nehmal']
 # lp = []
 # for a in ls:
-#     b = a[0].lower()  + a[1:-1].upper() + a[-1].lower()
-   
-#     lp.insert(0,a)
-#     lp.append (b)
+#     b = a[0:1].lower()  + a[1:-1].upper() + a[-1:].lower()
+#     lp.insert(0,b)
 #     print(b)
 # print(lp)

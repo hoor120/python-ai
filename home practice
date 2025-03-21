@@ -58,11 +58,20 @@
 
 # for loops
 
-ls = ['pakistan' , 'dubai', 'england']
-lp = []
-for a in ls:
-    b = a[:-1].lower() + a[-1].upper()
-    lp.append(b)
-    lp.insert(0,a)
-    print(b)
-print(lp)
+# ls = ['pakistan' , 'dubai', 'england']
+# lp = []
+# for a in ls:
+#     b = a[:-1].lower() + a[-1].upper()
+#     lp.append(b)
+#     lp.insert(0,a)
+#     print(b)
+# print(lp)
+
+# ls = ['canda' , 'england', 'germany']
+# lp = []
+# for a in ls:
+#     p = a[:-2].lower() + a[-2:].upper()
+#     print(p)
+#     lp.insert(0 , a)
+    
+# print(lp)

@@ -220,14 +220,14 @@
 
 # ls.append(80)
 # ls.insert(3,80)
-# ls.pop(1)                for pop
+# ls.pop(1)                for pop      kisi chez ko delt krny k liye
 # print(ls)
 # for a in ls:
 #     print(a)
 
 #  4:-  class assignment                     reverse methode
 
-ls = ['lahore' , 'karachi', 'multan' , 'jaranwala' , 'islamabad']
+# ls = ['lahore' , 'karachi', 'multan' , 'jaranwala' , 'islamabad']
 # lp=[]
 # for a in ls:
 #      lp.insert(0,a)
@@ -237,8 +237,8 @@ ls = ['lahore' , 'karachi', 'multan' , 'jaranwala' , 'islamabad']
  # 5:-  class assignment                       first letter capital
  
  
-lp =[]
-for a in ls:
-     ls[0:1].upper() + ls[1:2].upper() + ls[2:3].upper() + ls[3:4].upper + ls[4:].upper
-     print(ls)
+# lp =[]
+# for a in ls:
+#      ls[0:1].upper() + ls[1:2].upper() + ls[2:3].upper() + ls[3:4].upper + ls[4:].upper
+#      print(ls)
  
