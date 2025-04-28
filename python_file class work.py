@@ -251,10 +251,10 @@
     
     
 # while loop
-i =0
-while i<len(ls):
-    print(ls[i])
-i = i+1
+# i =0
+# while i<len(ls):
+#     print(ls[i])
+# i = i+1
 
 
 # range
@@ -267,4 +267,156 @@ i = i+1
 
 # ls = [x for x in range(2,10,2)]
 # print(ls)
+
+
+
+# tuples :-
+
+# tup = ('hello', 'world')
+# (tup1,*tup2) = tup
+# print(tup2)
+
+# print(type(tup))
+
+
+
+#   sets
+
+# st =set(('hwllo','world' ,'world'))
+# st2 = set(('good','bad', 'world'))
+# st.update(st2)
+# print(st)
+
+# print(type(st))
+# st.pop()
+# st.remove('world')
+# st.clear()
+# st.discard('hwllo')
+# del set()
+# st.add('flipisi')
+
+
+# unoin method
+
+# st1 = {'hello','world','!'}
+# st2 = {'menu','food', '!'}
+
+# st3 = st1| st2              bar(|) shows union
+# st3 = st1.union(st2)
+
+#  intersection method
+
+# st3 = st1 .intersection( st2)   & shows intersection
+
+# difference method
+
+# st3 = st1 .difference( st2)          - shows difference   (jo set1 m o ga wo set 2 m na o to wo print o ga set1 ka)
+
+# print(st3)
+
+
+# Dictionary:-
+
+# dic = dict({'name': 'amna'})
+
+# print(type(dic),dic,len(dic))
+# print(dic.get('name'))
+# dic['name'] = ' hoor'
+# dic['colouer']= 'fade'
+# dic.update({'age' : 34})
+# dic.pop('age')
+# dic.popitem()
+# print(dic.keys())
+# print(dic.values())
+# print(dic.items())
+# print(dic)
+
+
+# pss by refrence / pass by value..............     imp qs
+
+
+# copy dictionary.............
+
+
+
+# kivi library used for android apps         APK(application programming kit)
+# tkinter libaray used for desktop           exe.(execution)
+
+
+
+# Functions............
+
+# def s():
+    # print('hello world')
+# s()    
+
+
+# exception handling.............
+
+# x = 23
+# try:
+#     print(u)
+# except:
+#     print('error occur')
+# finally:
+    # print('this will always run')
+    
+    
+# anonymous function.............
+
+# w = lambda a : a*5
+# print(w(5))
+
+# a = input('enter ur name')
+# b = input('enter ur age')
+# print(a + ' ' + b)
+
+
+# format in string / integer / float
+
+
+# st ='Hello class of Ai'
+# p = st.title()
+# print(p)
+# a = list((st,))
+# print(a)    
+
+
+# s = ('eman ,hoor')
+# q = s.split(' ')
+# print(q)
+
+
+# oops in python.....................    stter,getter method
+# class Employee :
+    # pass 
+#     def setEmp(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def getEmp(self):
+#         print(f'{self.name} :  {self.age}')
+        
+# ab = Employee()
+# ab.setEmp('akash',23)
+# ab.getEmp()
+    
+    
+    # constructor method.............
+    
+# class Employee:
+#     #pass 
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def getEmp(self):
+#         print(f'{self.name} :  {self.age}')
+        
+# ab=Employee('aslam',23)
+# ab.getEmp()
+
+
+# inheritence.....................   single\multiple\multi-level/hiracricar inheritence
+
+
+
 
